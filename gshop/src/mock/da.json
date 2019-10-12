@@ -1,0 +1,77 @@
+{
+
+"goods":[
+ 
+	{
+		"category":"优惠",
+		"icon":"img",
+		"detaile":[
+    {
+			"name":"南瓜粥",
+			"des":"甜粥",
+			"conut":91,
+			"ratings":"100%",
+			"price":9,
+			"originPrice":12,
+			"avatar":"bhkjbjk",
+			"bigAvatar":"sasafgag",
+			"info":"大米、白糖、红枣"
+		}
+
+		]
+
+	}
+],
+"ratings":[
+ {
+	 "avatar":"url",
+	 "name":"七星瓢虫",
+	 "ratingsTime":"111111114564",
+	 "code":4.5,
+	 "content":"非常好吃",
+	 "rateType":0,
+	 "recommend":[]
+	}
+],
+"info":{
+ "name":"嘉禾一品",
+ "avatar":"url",
+ "code":4.2,
+ "des":"买大转送",
+ "times":28,
+ "adress":"1000m",
+ "avatarBg":"url",
+ "hpone":"18098243390",
+ "work":"09:00-18:00",
+ "address":"北京",
+ "pic":[
+	 "iamgeurl",
+	 "imageurl"
+ ],
+ "suport":[
+	 {
+		 "type":"首单",
+		 "text":"满减满减"
+	 },
+	 {
+		 "type":"满减",
+		 "text":"满减满减"
+	 }
+ ],
+
+ "server":[
+	{
+		"name":"据保单",
+		"text":"满减满减"
+	},
+	{
+		"name":"食安保",
+		"text":"满减满减"
+	}
+ ]
+
+
+}
+
+
+}

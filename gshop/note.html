@@ -1,0 +1,47 @@
+vue init webpack gshop
+npm install --save stylus 
+npm install --save stylus-loader
+  <!-- 解决点击响应延时 0.3s 问题 -->
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function() {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if(!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+    }
+  </script>
+
+  #app  
+   width 100%
+   height 100%
+   
+
+用rem布局
+<script>
+    let oWidth=document.documentElement.clientWidth || document.body.clientWidth;
+    let oHtml=document.getElementsByTagName('html')[0];
+    oHtml.style.fontSize=oWidth/10+'px'
+    window.addEventListener('resize',function (e) { 
+        let oWidth=document.documentElement.clientWidth || document.body.clientWidth;
+        oHtml.style.fontSize=oWidth/10+'px'
+     })   
+</script>
+
+路由组件 views
+
+一级路由 Login Proflie Miste Search Shop Order
+
+使用路由的时候插件的时候 会有相应的几组组件
+<router-link></router-link> 跳转路由
+<router-view></router-view> 显示路由映射的组件
+<keep-alive ></keep-alive>  缓存路由
+
+当前激活的路由类
+.router-link-active
+
+
+
+非路由组件

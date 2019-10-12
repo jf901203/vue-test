@@ -1,0 +1,12 @@
+export const RECIVE_ADDRESS='recive_address'
+export const RECIVE_SHOP='recive_shop'
+export const RECIVE_FOOD='recive_food'
+export const RECIVE_USER_INFO='recive_user_info'
+export const RESET_USER_INFO='reset_user_info' //重置用户信息
+export const RECIVE_GOODS='recive_goods'
+export const RECIVE_INFO="recive_info"
+export const RECIVE_RATINGS="recive_ratings"
+export const INCREMENT_COUNT="increment_count"
+export const RECREMENT_COUNT="recrement_count"
+export const CLEAR_CART="clear_cart"
+export const RECIVE_SEARCH_SHOP='recive_search_shop'

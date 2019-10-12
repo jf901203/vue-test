@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0">
+    <title>gshop</title>
+    <link rel="icon" href="data:image/ico;base64,aWNv">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_954879_n0a83jmj2o.css">
+    
+    <script>
+
+      let oWidth=document.documentElement.clientWidth || document.body.clientWidth;
+      let oHtml=document.getElementsByTagName('html')[0];
+      oHtml.style.fontSize=oWidth/10+'px'
+      window.addEventListener('resize',function (e) { 
+          let oWidth=document.documentElement.clientWidth || document.body.clientWidth;
+          oHtml.style.fontSize=oWidth/10+'px'
+       })
+      
+      
+      </script>
+    
+    <!-- 解决点击响应延时 0.3s 问题 -->
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function() {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if(!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+    }
+  </script>
+
+  <style>
+
+ 
+  </style>
+  </head>
+  <body>
+    <div id="app"></div>
+   
+  </body>
+</html>
